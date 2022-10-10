@@ -29,7 +29,7 @@ export default function Projects() {
               url="https://e-shopping-vinayn.netlify.app/"
             />
           </div>
-          {/* <div className="">
+          <div className="">
             <Project
               imgurl={countrylist}
               details={`Web application list the all conuntires with Flag, Population and Area it cover`}
@@ -42,7 +42,7 @@ export default function Projects() {
               details="A sample landing page for a travel website"
               url="https://landing1-vinayn.netlify.app"
             />
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
