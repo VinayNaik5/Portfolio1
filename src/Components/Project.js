@@ -1,16 +1,17 @@
 import React from "react";
+import "./Project.css";
 
 export default function Project(props) {
   return (
-    <div className="">
-      <figure className="figure ">
-        <img src={props.imgurl} alt="" width={350} />
-        <figcaption className="figure-caption">
-          {props.details}{" "}
-          <div>
-            <a href={props.url} target="_blank" rel="noreferrer">
-              {" "}
-              <button className="btn ">
+    <div className="col-lg-4 col-md-6 col-sm-9 col-9 ">
+      <div className="card h-100 hoverwrap">
+        <img src={props.imgurl} alt="" className=" card-img-top  " />
+        <div className="p-3 d-flex flex-column justify-content-center align-items-center hovercap">
+          {props.details}
+          <a href={props.url} target="_blank" rel="noreferrer">
+            {" "}
+            <div className="justify-content-center mt-2 mx-3  ">
+              <button className=" btn btn-outline-primary ">
                 Go to website{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -26,10 +27,10 @@ export default function Project(props) {
                   />
                 </svg>
               </button>
-            </a>
-          </div>
-        </figcaption>
-      </figure>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
