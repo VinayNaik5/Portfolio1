@@ -6,11 +6,11 @@ import landing1 from "../resources/Landing1.PNG";
 import countrylist from "../resources/Countrylist.PNG";
 export default function Projects() {
   return (
-    <div className="m-2 ">
+    <div className="m-1">
       <div className="text-center mb-5">
         <h1 className="fw-bold">My Works</h1>
       </div>
-      <div className="row gap-4 d-flex w-100 justify-content-center mt-3  ">
+      <div className="row gap-4 position-relative justify-content-center m-1 ">
         {/* <div className="col "> */}
         <Project
           imgurl={shoppingapp}

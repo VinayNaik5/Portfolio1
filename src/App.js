@@ -1,18 +1,17 @@
+import "./App.css";
 
-import './App.css';
-import Title from './Components/Title';
-import Navbar from './Components/Navbar';
-import Intro from './Components/Intro';
-import Projects from './Components/Projects';
+
+import Bgcontext from "./context/Bgcontext";
+import { useState } from "react";
+import Integrate from "./Components/Integrate";
 
 function App() {
+  const bg = useState(false);
   return (
     <>
-
-    <Navbar/>
-    <Title/>
-    <Intro/>
-    <Projects/>
+      <Bgcontext.Provider value={bg}>
+        <Integrate/>
+      </Bgcontext.Provider>
     </>
   );
 }
