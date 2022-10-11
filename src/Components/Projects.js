@@ -6,7 +6,7 @@ import landing1 from "../resources/Landing1.PNG";
 import countrylist from "../resources/Countrylist.PNG";
 export default function Projects() {
   return (
-    <div className="m-2 p-5">
+    <div className="m-2 ">
       <div className="text-center mb-5">
         <h1 className="fw-bold">My Works</h1>
       </div>

@@ -3,10 +3,10 @@ import "./Project.css";
 
 export default function Project(props) {
   return (
-    <div className="col-lg-4 col-md-6 col-sm-9 col-9 ">
-      <div className="card h-100 hoverwrap">
-        <img src={props.imgurl} alt="" className=" card-img-top  " />
-        <div className="p-3 d-flex flex-column justify-content-center align-items-center hovercap">
+    <div className="col-lg-4 col-md-5 col-sm-9 col-12 ">
+      <div className="card h-100 hoverwrap ">
+        <img src={props.imgurl} alt="" className="card-img-top " />
+        <div className=" d-flex flex-column justify-content-center align-items-center hovercap p-1">
           {props.details}
           <a href={props.url} target="_blank" rel="noreferrer">
             {" "}
