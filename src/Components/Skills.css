@@ -1,0 +1,9 @@
+.iconsClass:hover {
+  color: #050e89;
+}
+.iconsClass{
+    flex:1
+}
+.borderclass{
+    border: 1px solid black;
+}
