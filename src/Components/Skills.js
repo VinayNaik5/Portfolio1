@@ -24,7 +24,7 @@ export default function Skills() {
             <img src={skillMain} alt="" />
           </div>
           <div className="col col-lg-6 col-md-12 col-sm-12 col-12pt-5">
-            <div className="text-center iconsClass">
+            <div className="text-center ">
               <h1 className="fw-bold">What I Develop</h1>
             </div>
             <div className="  d-md-flex d-sm-flex gap-4 p-5 pt-3 justify-content-center mt-1">
