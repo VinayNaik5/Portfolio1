@@ -81,10 +81,6 @@ export default function Skills() {
                   <SiMongodb size={50}></SiMongodb>
                   <p className="mt-3">MongoDB</p>
                 </div>
-                <div className="iconsClass text-center">
-                  <FaSass className="" size={"50"}></FaSass>
-                  <p className="mt-3 ">SASS</p>
-                </div>
               </div>
               <div className="d-flex gap-4">
                 <div className="iconsClass text-center">
@@ -92,9 +88,15 @@ export default function Skills() {
                   <p className="mt-3">RDBMS</p>
                 </div>
                 <div className="iconsClass text-center">
+                  <FaSass className="" size={"50"}></FaSass>
+                  <p className="mt-3 ">SASS</p>
+                </div>
+                <div className="iconsClass text-center">
                   <SiFirebase className="" size={50}></SiFirebase>
                   <p className="mt-3">Firebase</p>
                 </div>
+              </div>
+              <div className="d-flex gap-4">
                 <div className="iconsClass text-center">
                   <FaDocker className="" size={50}></FaDocker>
                   <p className="mt-3">Docker</p>
