@@ -1,6 +1,7 @@
 import React from "react";
 import skillMain from "../resources/skillMian.svg";
 import {
+  FaAngular,
   FaAws,
   FaBootstrap,
   FaDocker,
@@ -68,6 +69,10 @@ export default function Skills() {
             </div>
             <div className=" d-md-flex d-sm-flex gap-4 p-5 pt-3 justify-content-center mt-1 ">
               <div className="d-flex gap-4">
+                <div className="iconsClass text-center">
+                  <FaAngular className="" size={50}></FaAngular>
+                  <p className="mt-3">Angular</p>
+                </div>
                 <div className="iconsClass text-center">
                   <FaAws className="" size={50} id="aws"></FaAws>
                   <p className="mt-3">AWS</p>

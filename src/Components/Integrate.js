@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import Bgcontext from "../context/Bgcontext";
+import ContactMe from "./ContactMe";
 import Intro from "./Intro";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
@@ -15,6 +16,7 @@ export default function Integrate() {
         <Intro />
         <Projects />
         <Skills />
+        <ContactMe/>
       </div>
     </div>
   );
