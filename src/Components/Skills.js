@@ -20,14 +20,14 @@ export default function Skills() {
   return (
     <>
       <div className="pt-5 p-1 mt-3 m-1  ">
+        <div className="text-center pb-3 ">
+          <h1 className="fw-bold">What I Develop</h1>
+        </div>
         <div className="row w-100 m-1">
-          <div className="col col-lg-6 col-md-12 col-sm-12 col-12">
+          <div className="ps-0 col col-lg-6 col-md-12 col-sm-12 col-12">
             <img src={skillMain} alt="" />
           </div>
           <div className="col col-lg-6 col-md-12 col-sm-12 col-12pt-5">
-            <div className="text-center ">
-              <h1 className="fw-bold">What I Develop</h1>
-            </div>
             <div className="  d-md-flex d-sm-flex gap-4 p-5 pt-3 justify-content-center mt-1">
               <div className="d-flex gap-4">
                 <div className=" iconsClass text-center ">
