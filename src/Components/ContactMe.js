@@ -2,7 +2,8 @@ import React from "react";
 import linkedin from "../resources/linkedin.png";
 import gmail from "../resources/gmail.png";
 import twitter from "../resources/twitter.png";
-import contact from "../resources/contact.svg"
+import contact from "../resources/contact.svg";
+import github from "../resources/github.png"
 import "./ContactMe.css";
 
 export default function ContactMe() {
@@ -47,6 +48,15 @@ export default function ContactMe() {
                 rel="noreferrer"
               >
                 <img src={twitter} alt="" height={"50px"} />
+              </a>
+            </div>
+            <div className="icon">
+              <a
+                href="https://github.com/VinayNaik5"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={github} alt="" height={"50px"} />
               </a>
             </div>
           </div>
